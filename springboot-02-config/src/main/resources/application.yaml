@@ -1,0 +1,39 @@
+
+# 默认服务器端口
+server:
+  port: 8080
+#选择要激活那个环境块
+spring:
+  profiles:
+    active: dev
+
+---
+server:
+  port: 8081
+spring:
+  profiles: dev #配置环境的名称
+
+  # 设置服务器端口
+  server.port: 8081
+
+# 配置属性
+person:
+  name: lucius
+  age: 24
+  tel: 123456
+
+---
+
+server:
+  port: 8084
+spring:
+  profiles: prod  #配置环境的名称
+
+# 设置服务器端口
+server.port: 8082
+
+# 配置属性
+person:
+  name: lucius
+  age: 24
+  tel: 123456
