@@ -117,8 +117,19 @@ prefix = " "参数就是配置文件中的属性
         <version>1.2.5</version>
     </dependency>
 
+    <!-- Junit依赖,测试的时候使用 -->
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <scope>test</scope>
+    </dependency>
 
-
+    <!--shiro-->
+    <dependency>
+        <groupId>org.apache.shiro</groupId>
+        <artifactId>shiro-spring-boot-web-starter</artifactId>
+        <version>1.5.2</version>
+    </dependency>
 
 </dependencies>
 

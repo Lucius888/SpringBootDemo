@@ -36,10 +36,17 @@
     "shortType" : null,
     "custom" : false,
     "ext" : { }
+  }, {
+    "name" : "password",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
   } ],
   "pkColumn" : null,
   "otherColumn" : null,
   "savePackageName" : "com.lucius",
-  "savePath" : "./springboot-05-pagehelper/src/main/java/com/lucius",
-  "saveModelName" : "springboot-05-pagehelper"
+  "savePath" : "./springboot-07-shiro-authentication/src/main/java/com/lucius",
+  "saveModelName" : "springboot-07-shiro-authentication"
 }

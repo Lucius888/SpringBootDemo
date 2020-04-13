@@ -918,187 +918,144 @@
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
     <table id="231" parent="4" name="account"/>
-    <table id="232" parent="4" name="my"/>
-    <table id="233" parent="4" name="myuser"/>
-    <table id="234" parent="4" name="role"/>
-    <table id="235" parent="4" name="user"/>
-    <table id="236" parent="4" name="user_role"/>
-    <column id="237" parent="231" name="ID">
+    <table id="232" parent="4" name="role"/>
+    <table id="233" parent="4" name="shiro"/>
+    <table id="234" parent="4" name="user"/>
+    <table id="235" parent="4" name="user_role"/>
+    <column id="236" parent="231" name="ID">
       <Position>1</Position>
       <Comment>编号</Comment>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="238" parent="231" name="UID">
+    <column id="237" parent="231" name="UID">
       <Position>2</Position>
       <Comment>用户编号</Comment>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="239" parent="231" name="MONEY">
+    <column id="238" parent="231" name="MONEY">
       <Position>3</Position>
       <Comment>金额</Comment>
       <DataType>double|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="240" parent="231" name="FK_Reference_8">
+    <index id="239" parent="231" name="FK_Reference_8">
       <ColNames>UID</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="241" parent="231" name="PRIMARY">
+    <key id="240" parent="231" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="242" parent="231" name="FK_Reference_8">
+    <foreign-key id="241" parent="231" name="FK_Reference_8">
       <ColNames>UID</ColNames>
       <RefTableName>user</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="243" parent="232" name="id">
-      <Position>1</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="244" parent="232" name="name">
-      <Position>2</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="245" parent="232" name="address">
-      <Position>3</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <key id="246" parent="232" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="247" parent="233" name="id">
-      <Position>1</Position>
-      <Comment>主键</Comment>
-      <DataType>int(13)|0s</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="248" parent="233" name="name">
-      <Position>2</Position>
-      <Comment>姓名</Comment>
-      <DataType>varchar(33)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="249" parent="233" name="age">
-      <Position>3</Position>
-      <Comment>年龄</Comment>
-      <DataType>int(3)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="250" parent="233" name="money">
-      <Position>4</Position>
-      <Comment>账户余额</Comment>
-      <DataType>double|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <key id="251" parent="233" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="252" parent="234" name="ID">
+    <column id="242" parent="232" name="ID">
       <Position>1</Position>
       <Comment>编号</Comment>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="253" parent="234" name="ROLE_NAME">
+    <column id="243" parent="232" name="ROLE_NAME">
       <Position>2</Position>
       <Comment>角色名称</Comment>
       <DataType>varchar(30)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="254" parent="234" name="ROLE_DESC">
+    <column id="244" parent="232" name="ROLE_DESC">
       <Position>3</Position>
       <Comment>角色描述</Comment>
       <DataType>varchar(60)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="255" parent="234" name="PRIMARY">
+    <key id="245" parent="232" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="256" parent="235" name="id">
+    <column id="246" parent="233" name="shiro">
+      <Position>1</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="247" parent="234" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="257" parent="235" name="username">
+    <column id="248" parent="234" name="username">
       <Position>2</Position>
       <Comment>用户名称</Comment>
       <DataType>varchar(32)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="258" parent="235" name="birthday">
+    <column id="249" parent="234" name="birthday">
       <Position>3</Position>
       <Comment>生日</Comment>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="259" parent="235" name="sex">
+    <column id="250" parent="234" name="sex">
       <Position>4</Position>
       <Comment>性别</Comment>
       <DataType>char(1)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="260" parent="235" name="address">
+    <column id="251" parent="234" name="address">
       <Position>5</Position>
       <Comment>地址</Comment>
       <DataType>varchar(256)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="261" parent="235" name="PRIMARY">
+    <column id="252" parent="234" name="password">
+      <Position>6</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="253" parent="234" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="262" parent="236" name="UID">
+    <column id="254" parent="235" name="UID">
       <Position>1</Position>
       <Comment>用户编号</Comment>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="263" parent="236" name="RID">
+    <column id="255" parent="235" name="RID">
       <Position>2</Position>
       <Comment>角色编号</Comment>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="264" parent="236" name="FK_Reference_10">
+    <index id="256" parent="235" name="FK_Reference_10">
       <ColNames>RID</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="265" parent="236" name="PRIMARY">
+    <key id="257" parent="235" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>UID
 RID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="266" parent="236" name="FK_Reference_9">
+    <foreign-key id="258" parent="235" name="FK_Reference_9">
       <ColNames>UID</ColNames>
       <RefTableName>user</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="267" parent="236" name="FK_Reference_10">
+    <foreign-key id="259" parent="235" name="FK_Reference_10">
       <ColNames>RID</ColNames>
       <RefTableName>role</RefTableName>
       <RefColNames>ID</RefColNames>
