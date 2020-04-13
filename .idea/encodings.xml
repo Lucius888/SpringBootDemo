@@ -10,6 +10,9 @@
     <file url="file://$PROJECT_DIR$/springboot-05-pagehelper" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-06-thymeleaf" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-07-shiro-authentication" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-08-shiro-authorization" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-09-shiro-thymeleaf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-10-swagger" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

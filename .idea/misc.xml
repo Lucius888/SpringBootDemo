@@ -16,6 +16,9 @@
         <option value="$PROJECT_DIR$/springboot-06-thymeleaf/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-03-druid/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-07-shiro-authentication/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-08-shiro-authorization/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-10-swagger/pom.xml" />
       </list>
     </option>
   </component>

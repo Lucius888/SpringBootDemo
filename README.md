@@ -131,6 +131,26 @@ prefix = " "参数就是配置文件中的属性
         <version>1.5.2</version>
     </dependency>
 
+    <!-- thymeleaf-extras-shiro -->
+    <dependency>
+        <groupId>com.github.theborakompanioni</groupId>
+        <artifactId>thymeleaf-extras-shiro</artifactId>
+        <version>2.0.0</version>
+    </dependency>
+
+    <!-- springfox-swagger-ui -->
+    <dependency>
+        <groupId>io.springfox</groupId>
+        <artifactId>springfox-swagger-ui</artifactId>
+        <version>2.9.2</version>
+    </dependency>
+    <!-- springfox-swagger2 -->
+    <dependency>
+        <groupId>io.springfox</groupId>
+        <artifactId>springfox-swagger2</artifactId>
+        <version>2.9.2</version>
+    </dependency>
+
 </dependencies>
 
 ```

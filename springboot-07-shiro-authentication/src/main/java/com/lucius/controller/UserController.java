@@ -60,7 +60,7 @@ public class UserController {
         UsernamePasswordToken token = new UsernamePasswordToken(username, password);
         try {
             subject.login(token);
-            return "user/userList";
+            return "index";
         } catch (UnknownAccountException e) {
             model.addAttribute("msg","用户名或密码错误");
             return "login";

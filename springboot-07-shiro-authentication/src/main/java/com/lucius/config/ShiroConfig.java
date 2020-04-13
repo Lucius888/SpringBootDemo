@@ -42,8 +42,8 @@ public class ShiroConfig {
 //        // 登录成功后跳转的url
 //        shiroFilterFactoryBean.setSuccessUrl("/userList");
 //
-        //设置访问无权限的资源时跳转的页面
-        shiroFilterFactoryBean.setUnauthorizedUrl("/login");
+//        //设置访问无权限的资源时跳转的页面
+//        shiroFilterFactoryBean.setUnauthorizedUrl("/unauthorized");
 //
         //指定路径和过滤器的对应关系
         Map<String, String> filterMap = new LinkedHashMap<>();
