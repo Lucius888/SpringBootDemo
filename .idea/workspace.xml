@@ -1,74 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="782c1a50-bd0c-451a-b11c-b12ba62d524b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-08-shiro-authorization/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-shiro-authorization/src/main/java/com/lucius/config/DruidConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-shiro-authorization/src/main/java/com/lucius/config/ShiroConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-shiro-authorization/src/main/java/com/lucius/config/ShiroRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-shiro-authorization/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-shiro-authorization/src/main/resources/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-shiro-authorization/src/main/resources/static/css/user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-shiro-authorization/src/main/resources/static/js/jquery-1.11.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-shiro-authorization/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-shiro-authorization/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-shiro-authorization/src/main/resources/templates/user/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-shiro-authorization/src/main/resources/templates/user/delet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-shiro-authorization/src/main/resources/templates/user/unauthorized.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-shiro-authorization/src/main/resources/templates/user/userList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/src/main/java/com/lucius/Springboot09ShiroThymeleafApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/src/main/java/com/lucius/config/DruidConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/src/main/java/com/lucius/config/ShiroConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/src/main/java/com/lucius/config/ShiroRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/src/main/java/com/lucius/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/src/main/java/com/lucius/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/src/main/java/com/lucius/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/src/main/java/com/lucius/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/src/main/java/com/lucius/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/src/main/resources/mapper/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/src/main/resources/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/src/main/resources/static/css/user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/src/main/resources/static/js/jquery-1.11.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/src/main/resources/templates/user/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/src/main/resources/templates/user/delet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/src/main/resources/templates/user/unauthorized.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/src/main/resources/templates/user/userList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/target/classes/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/target/classes/com/lucius/config/DruidConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/target/classes/com/lucius/config/ShiroConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/target/classes/com/lucius/config/ShiroRealm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/target/classes/com/lucius/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/target/classes/com/lucius/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/target/classes/com/lucius/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/target/classes/com/lucius/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/target/classes/com/lucius/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/target/classes/mapper/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/target/classes/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/target/classes/static/css/user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/target/classes/static/js/jquery-1.11.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/target/classes/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/target/classes/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/target/classes/templates/user/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/target/classes/templates/user/delet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/target/classes/templates/user/unauthorized.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/target/classes/templates/user/userList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-09-shiro-thymeleaf/target/test-classes/com/lucius/Springboot08ShiroAuthorizationApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-10-swagger/src/main/java/com/lucius/swagger/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-10-swagger/src/main/java/com/lucius/swagger/controller/HelloSwagger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-10-swagger/src/main/java/com/lucius/swagger/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-10-swagger/src/main/resources/application-dev.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-10-swagger/src/main/resources/application-prod.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-07-shiro-authentication/src/main/java/com/lucius/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-07-shiro-authentication/src/main/java/com/lucius/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-10-swagger/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-11-redis/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-07-shiro-authentication/src/main/java/com/lucius/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-07-shiro-authentication/src/main/java/com/lucius/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-07-shiro-authentication/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-07-shiro-authentication/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-07-shiro-authentication/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-07-shiro-authentication/target/classes/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-07-shiro-authentication/target/classes/com/lucius/config/ShiroConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-07-shiro-authentication/target/classes/com/lucius/config/ShiroConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-07-shiro-authentication/target/classes/com/lucius/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-07-shiro-authentication/target/classes/com/lucius/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-10-swagger/target/classes/com/lucius/swagger/controller/HelloSwagger.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-10-swagger/target/classes/com/lucius/swagger/controller/HelloSwagger.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,12 +87,12 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-08-shiro-authorization/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.29307806" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.sjhy.plugin.ui.TemplateSettingPanel" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -578,7 +522,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Springboot10SwaggerApplication">
+  <component name="RunManager" selected="JUnit.Springboot11RedisApplicationTests">
     <configuration name="Springboot07ShiroAuthenticationApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-07-shiro-authentication" />
       <extension name="coverage">
@@ -604,6 +548,37 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.lucius" />
       <option name="MAIN_CLASS_NAME" value="com.lucius.Springboot07ShiroAuthenticationApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot11RedisApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-11-redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lucius.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lucius" />
+      <option name="MAIN_CLASS_NAME" value="com.lucius.Springboot11RedisApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot11RedisApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-11-redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lucius.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lucius" />
+      <option name="MAIN_CLASS_NAME" value="com.lucius.Springboot11RedisApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -692,6 +667,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Springboot11RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-11-redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lucius.Springboot11RedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Srpingboot03DruidApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="srpingboot-03-druid" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lucius.Srpingboot03DruidApplication" />
@@ -711,11 +693,16 @@
       <item itemvalue="Spring Boot.Springboot07ShiroAuthenticationApplication" />
       <item itemvalue="Spring Boot.Srpingboot03DruidApplication" />
       <item itemvalue="Spring Boot.Springboot08ShiroAuthorizationApplication" />
-      <item itemvalue="Spring Boot.Springboot09ShiroThymeleafApplication" />
       <item itemvalue="Spring Boot.Springboot10SwaggerApplication" />
+      <item itemvalue="Spring Boot.Springboot09ShiroThymeleafApplication" />
+      <item itemvalue="Spring Boot.Springboot11RedisApplication" />
+      <item itemvalue="JUnit.Springboot11RedisApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.Springboot11RedisApplicationTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Springboot11RedisApplicationTests" />
+        <item itemvalue="JUnit.Springboot11RedisApplicationTests.contextLoads" />
         <item itemvalue="Spring Boot.Springboot09ShiroThymeleafApplication" />
         <item itemvalue="JUnit.Springboot07ShiroAuthenticationApplicationTests" />
         <item itemvalue="JUnit.Springboot07ShiroAuthenticationApplicationTests.contextLoads" />
@@ -726,12 +713,7 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c88855f0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -755,6 +737,18 @@
       <workItem from="1586656914807" duration="34241000" />
       <workItem from="1586694525184" duration="4203000" />
       <workItem from="1586744602999" duration="32299000" />
+      <workItem from="1586832312645" duration="705000" />
+      <workItem from="1586860257283" duration="235000" />
+      <workItem from="1586860737500" duration="1212000" />
+      <workItem from="1586868963974" duration="22000" />
+      <workItem from="1586918986216" duration="1376000" />
+      <workItem from="1586924047543" duration="3677000" />
+      <workItem from="1586946416802" duration="77000" />
+      <workItem from="1586946587520" duration="2038000" />
+      <workItem from="1586953638220" duration="338000" />
+      <workItem from="1586954031248" duration="4351000" />
+      <workItem from="1587004923833" duration="5293000" />
+      <workItem from="1589458507311" duration="7445000" />
     </task>
     <servers />
   </component>

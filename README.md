@@ -151,6 +151,13 @@ prefix = " "参数就是配置文件中的属性
         <version>2.9.2</version>
     </dependency>
 
+    <!-- redis -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-data-redis</artifactId>
+    </dependency>
+
+
 </dependencies>
 
 ```

@@ -54,10 +54,14 @@ public class UserController {
 
     @RequestMapping("/login")
     public String login(String username,String password,Model model){
+        System.out.println(username);
+        System.out.println(password);
         // 获取Subject对象
         Subject subject = SecurityUtils.getSubject();
+        System.out.println("subject:"+subject);
         //封装用户
         UsernamePasswordToken token = new UsernamePasswordToken(username, password);
+        System.out.println("token:"+token);
         try {
             subject.login(token);
             return "index";

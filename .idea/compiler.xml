@@ -16,6 +16,7 @@
         <module name="springboot-10-swagger" />
         <module name="springboot-06-thymeleaf" />
         <module name="springboot-07-shiro-authentication" />
+        <module name="springboot-11-redis" />
         <module name="springboot-08-shiro-authorization" />
         <module name="SpringBootDemo" />
       </profile>
@@ -36,6 +37,7 @@
       <module name="springboot-08-shiro-authorization" options="-parameters" />
       <module name="springboot-09-shiro-thymeleaf" options="-parameters" />
       <module name="springboot-10-swagger" options="-parameters" />
+      <module name="springboot-11-redis" options="-parameters" />
       <module name="srpingboot-03-druid" options="-parameters" />
     </option>
   </component>
