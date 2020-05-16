@@ -1,7 +1,9 @@
 package com.lucius;
 
+import com.lucius.util.RedisUtil;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
@@ -10,11 +12,16 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 class Springboot11RedisApplicationTests {
 
     @Autowired
-    StringRedisTemplate stringRedisTemplate;
+    @Qualifier("redisTemplate")
+    RedisTemplate redisTemplate;
+
+    @Autowired
+    RedisUtil redisUtil;
+
     @Test
-    void contextLoads() {
-        stringRedisTemplate.opsForValue().set("name","lucius");
-        System.out.println(stringRedisTemplate.opsForValue().get("name"));
+    public void test(){
+        redisUtil.set("name","lucius");
+        System.out.println(redisUtil.get("name"));
     }
 
 }

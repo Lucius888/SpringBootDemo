@@ -7,18 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-05-pagehelper" />
-        <module name="springboot-02-config" />
+        <module name="springboot-07-shiro-authentication" />
         <module name="springboot-09-shiro-thymeleaf" />
         <module name="springboot-04-mybatis" />
         <module name="springboot-01-hello" />
         <module name="srpingboot-03-druid" />
         <module name="springboot-10-swagger" />
         <module name="springboot-06-thymeleaf" />
-        <module name="springboot-07-shiro-authentication" />
-        <module name="springboot-11-redis" />
-        <module name="springboot-08-shiro-authorization" />
+        <module name="springboot-02-config" />
+        <module name="springboot-05-pagehelper" />
         <module name="SpringBootDemo" />
+        <module name="springboot-08-shiro-authorization" />
+        <module name="springboot-11-redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="782c1a50-bd0c-451a-b11c-b12ba62d524b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-10-swagger/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-11-redis/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-07-shiro-authentication/src/main/java/com/lucius/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-07-shiro-authentication/src/main/java/com/lucius/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-07-shiro-authentication/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-07-shiro-authentication/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-07-shiro-authentication/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-07-shiro-authentication/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-07-shiro-authentication/target/classes/com/lucius/config/ShiroConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-07-shiro-authentication/target/classes/com/lucius/config/ShiroConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-07-shiro-authentication/target/classes/com/lucius/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-07-shiro-authentication/target/classes/com/lucius/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-10-swagger/target/classes/com/lucius/swagger/controller/HelloSwagger.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-10-swagger/target/classes/com/lucius/swagger/controller/HelloSwagger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-11-redis/src/main/java/com/lucius/config/redisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-11-redis/src/main/java/com/lucius/util/RedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-11-redis/src/test/java/com/lucius/Springboot11RedisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-11-redis/src/test/java/com/lucius/Springboot11RedisApplicationTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +91,19 @@
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\GithubFile\SpringBootDemo\springboot-08-shiro-authorization\src\main\resources\templates\user" />
+      <recent name="F:\GithubFile\SpringBootDemo\springboot-08-shiro-authorization\src\main\resources\templates" />
+      <recent name="F:\GithubFile\SpringBootDemo\springboot-07-shiro-authentication\src\main\resources\templates\user" />
+      <recent name="F:\GithubFile\SpringBootDemo\springboot-06-thymeleaf\src\main\resources\templates" />
+      <recent name="F:\GithubFile\SpringBootDemo\springboot-06-thymeleaf\src\main\resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.lucius" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lucius.config" />
+      <recent name="com.lucius.util" />
       <recent name="com.lucius" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -105,17 +112,6 @@
       <recent name="F:\GithubFile\SpringBootDemo\springboot-09-shiro-thymeleaf" />
       <recent name="F:\GithubFile\SpringBootDemo" />
       <recent name="F:\GithubFile\SpringBootDemo\springboot-08-shiro-authorization\src\main\resources\templates\user" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.lucius" />
-      <recent name="com.lucius.config" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\GithubFile\SpringBootDemo\springboot-08-shiro-authorization\src\main\resources\templates\user" />
-      <recent name="F:\GithubFile\SpringBootDemo\springboot-08-shiro-authorization\src\main\resources\templates" />
-      <recent name="F:\GithubFile\SpringBootDemo\springboot-07-shiro-authentication\src\main\resources\templates\user" />
-      <recent name="F:\GithubFile\SpringBootDemo\springboot-06-thymeleaf\src\main\resources\templates" />
-      <recent name="F:\GithubFile\SpringBootDemo\springboot-06-thymeleaf\src\main\resources" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -684,6 +680,8 @@
     <list>
       <item itemvalue="JUnit.Springboot07ShiroAuthenticationApplicationTests.contextLoads" />
       <item itemvalue="JUnit.Springboot07ShiroAuthenticationApplicationTests" />
+      <item itemvalue="JUnit.Springboot11RedisApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.Springboot11RedisApplicationTests" />
       <item itemvalue="Remote.springboot-debug" />
       <item itemvalue="Spring Boot.Springboot01HelloApplication" />
       <item itemvalue="Spring Boot.Springboot02ConfigApplication" />
@@ -694,10 +692,8 @@
       <item itemvalue="Spring Boot.Srpingboot03DruidApplication" />
       <item itemvalue="Spring Boot.Springboot08ShiroAuthorizationApplication" />
       <item itemvalue="Spring Boot.Springboot10SwaggerApplication" />
-      <item itemvalue="Spring Boot.Springboot09ShiroThymeleafApplication" />
       <item itemvalue="Spring Boot.Springboot11RedisApplication" />
-      <item itemvalue="JUnit.Springboot11RedisApplicationTests.contextLoads" />
-      <item itemvalue="JUnit.Springboot11RedisApplicationTests" />
+      <item itemvalue="Spring Boot.Springboot09ShiroThymeleafApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -748,7 +744,8 @@
       <workItem from="1586953638220" duration="338000" />
       <workItem from="1586954031248" duration="4351000" />
       <workItem from="1587004923833" duration="5293000" />
-      <workItem from="1589458507311" duration="7445000" />
+      <workItem from="1589458507311" duration="7663000" />
+      <workItem from="1589612006004" duration="5220000" />
     </task>
     <servers />
   </component>
